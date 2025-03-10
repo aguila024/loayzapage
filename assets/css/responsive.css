@@ -1,178 +1,178 @@
-@media(max-width:1200px) {
-    .persona_home {
-        width: 350px;
-    }
+@media (max-width: 1200px) {
+  .persona_home {
+    width: 350px;
+  }
 }
 
-
-
-@media(max-width:1024px) {
-    .contenedor_form{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    
+@media (max-width: 1024px) {
+  .contenedor_form {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
-
-@media(max-width:1000px) {
-
+@media (max-width: 1000px) {
 }
 
-@media(max-width:980px) {
-    .container_body_page_servicios [class*=uk-child-width]>*{
-        padding: 0;
-    }
+@media (max-width: 980px) {
+  .container_body_page_servicios [class*="uk-child-width"] > * {
+    padding: 0;
+  }
 }
 
-
-@media(max-width:950px) {}
-
-@media(max-width:920px) {
-    .contenedor_form {
-        padding-right: 30px;
-        padding-left: 30px;
-    }
+@media (max-width: 950px) {
 }
 
-
-
-@media(max-width:840px) {
-    
+@media (max-width: 920px) {
+  .contenedor_form {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
 
-
-@media(max-width:800px) {}
-
-@media(max-width:720px) {
-    .contenedor_form {
-        padding-right: 30px;
-        padding-left: 30px;
-    }
+@media (max-width: 840px) {
 }
 
-
-
-@media(max-width:639px) {
-    .contenedor_form_principal {
-        padding: 10px;
-    }
-
-    /* Adjusting the size of the form and the content */
-    .datos_form,
-    .tamaño_contenedor {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .contenedor_form {
-        padding: 0 20px;
-    }
-
-    .datos_form h2 {
-        font-size: 28px;
-        /* Make header smaller for small screens */
-        text-align: center;
-    }
-
-    /* Adjust the layout of contact details */
-    .item_detalle_contacto {
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-    }
-
-    /* Make the input fields take the full width */
-    .uk-input,
-    .uk-textarea {
-        width: 100% !important;
-        font-size: 14px;
-        /* Adjust font size for better readability */
-        padding: 12px;
-        margin-bottom: 15px;
-    }
-
-    /* Button size adjustment */
-    .uk-button {
-        width: 100%;
-        font-size: 16px;
-        padding: 15px 0;
-        margin-top: 15px;
-    }
-
-    /* Placeholder adjustments */
-    ::placeholder {
-        text-align: left;
-    }
-
-    .contenedor_form_principal .uk-flex {
-        flex-direction: column;
-    }
+@media (max-width: 800px) {
 }
 
-@media(max-width:520px) {
-
-    .item_derecho_slider {
-        width: 320px;
-    }
-
-    .item_derecho_slider_2 {
-        width: 350px;
-    }
-
-    .item_derecho_slider h2,
-    .item_derecho_slider_2 h2,
-    .datos_form h2 {
-        font-size: 25px;
-    }
-
-    .datos_form h2{
-        text-align: center;
-    }
-
-    .item_derecho_slider p {
-        font-size: 15px;
-    }
-
-    .item_derecho_slider a {
-        font-size: 15px;
-    }
-
+@media (max-width: 720px) {
+  .contenedor_form {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
 
-@media(max-width:454px) {}
+@media (max-width: 639px) {
+  .contenedor_form_principal {
+    padding: 10px;
+  }
 
-@media (max-width: 430px) {}
+  /* Adjusting the size of the form and the content */
+  .datos_form,
+  .tamaño_contenedor {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
-@media(max-width:450px) {
-    .item_derecho_slider {
-        width: 300px;
-    }
+  .contenedor_form {
+    padding: 0 20px;
+  }
 
-    .item_derecho_slider_2 {
-        width: 300px;
-    }
+  .datos_form h2 {
+    font-size: 28px;
+    /* Make header smaller for small screens */
+    text-align: center;
+  }
+
+  /* Adjust the layout of contact details */
+  .item_detalle_contacto {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* Make the input fields take the full width */
+  .uk-input,
+  .uk-textarea {
+    width: 100% !important;
+    font-size: 14px;
+    /* Adjust font size for better readability */
+    padding: 12px;
+    margin-bottom: 15px;
+  }
+
+  /* Button size adjustment */
+  .uk-button {
+    width: 100%;
+    font-size: 16px;
+    padding: 15px 0;
+    margin-top: 15px;
+  }
+
+  /* Placeholder adjustments */
+  ::placeholder {
+    text-align: left;
+  }
+
+  .contenedor_form_principal .uk-flex {
+    flex-direction: column;
+  }
 }
 
-@media(max-width:420px) {
-    .item_derecho_slider {
-        width: 250px;
-    }
+@media (max-width: 520px) {
+  .item_derecho_slider {
+    width: 320px;
+  }
 
-    .item_derecho_slider_2 {
-        width: 280px;
-    }
+  .item_derecho_slider_2 {
+    width: 350px;
+  }
 
-    .item_derecho_slider h2,
-    .item_derecho_slider_2 h2 {
-        font-size: 25px;
-    }
+  .item_derecho_slider h2,
+  .item_derecho_slider_2 h2,
+  .datos_form h2 {
+    font-size: 25px;
+  }
 
-    .item_derecho_slider p {
-        font-size: 15px;
-    }
+  .datos_form h2 {
+    text-align: center;
+  }
 
-    .item_derecho_slider a {
-        font-size: 15px;
-    }
+  .item_derecho_slider p {
+    font-size: 15px;
+  }
+
+  .item_derecho_slider a {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 454px) {
+  .n_modal_icono {
+    width: 20%!important;
+  }
+  .n_circulo_logros {
+    height:88px;
+  }
+  
+}
+
+@media (max-width: 430px) {
+}
+
+@media (max-width: 450px) {
+  .item_derecho_slider {
+    width: 300px;
+  }
+
+  .item_derecho_slider_2 {
+    width: 300px;
+  }
+}
+
+@media (max-width: 420px) {
+  .item_derecho_slider {
+    width: 250px;
+  }
+
+  .item_derecho_slider_2 {
+    width: 280px;
+  }
+
+  .item_derecho_slider h2,
+  .item_derecho_slider_2 h2 {
+    font-size: 25px;
+  }
+
+  .item_derecho_slider p {
+    font-size: 15px;
+  }
+
+  .item_derecho_slider a {
+    font-size: 15px;
+  }
+  .n_circulo_logros {
+    height:80px;
+  }
 }
