@@ -496,6 +496,7 @@ header {
 
 .detalle_detalle p {
   color: var(--color-principal);
+  text-decoration: none;
 }
 
 .social-icons {

@@ -32,36 +32,36 @@
                     <div class="list_detalle_contacto uk-flex">
                         <div class="item_detalle_contacto">
                             <div class="icon_detalle">
-                                <img src="svg/phone.svg" alt="" width="18px" height="18px">
+                                <img src="./assets/img/phone.svg" width="18px" height="18px">
                             </div>
-                            <div class="detalle_detalle">
-                                <p>+51 942 851 103</p>
+                            <div class="uk-link-text">
+                                <a href="tel:+51942851103">+51 942 851 103</a>
                             </div>
                         </div>
                     </div>
                     <div class="list_detalle_contacto uk-flex">
                         <div class="item_detalle_contacto">
                             <div class="icon_detalle">
-                                <img src="svg/email.svg" alt="" width="18px" height="18px">
+                                <img src="./assets/img/email.svg" alt="" width="18px" height="18px">
                             </div>
-                            <div class="detalle_detalle">
-                                <p>legal@jjloayza.com.pe</p>
+                            <div class="uk-link-text">
+                                <a href="mailto:legal@jjloayza.com.pe">legal@jjloayza.com.pe</a>
                             </div>
                         </div>
                     </div>
                     <div class="list_detalle_contacto uk-flex">
                         <div class="item_detalle_contacto">
                             <div class="icon_detalle logo_detalle">
-                                <img src="svg/location.svg" alt="" width="16px" height="16px">
+                                <img src="./assets/img/location.svg" alt="" width="16px" height="16px">
                             </div>
-                            <div class="detalle_detalle">
-                                <p>Calle Porta 170, oficina 604<br>
-                                    Miraflores, Lima, Perú</p>
+                            <div class="uk-link-text">
+                                <a href="https://maps.app.goo.gl/m7vb9HxbyQCcrwiq6">Calle Porta 170, oficina 604<br>
+                                    Miraflores, Lima, Perú</a>
                             </div>
                         </div>
                     </div>
                     <div class="uk-margin uk-flex uk-flex-start">
-                        <button class="uk-button uk-width-auto text_blanco fondo-azul fuente2" type="submit">CONTÁCTANOS</button>
+                        <a class="uk-button uk-width-auto text_blanco fondo-azul fuente2" href="https://wa.link/lvfz3c">CONTÁCTANOS</a>
                     </div>
                 </div>
 

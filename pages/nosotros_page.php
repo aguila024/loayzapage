@@ -29,14 +29,14 @@
                 <?php for ($i = 0; $i < 6; $i++) { ?>
                     <div>
                         <div class="uk-column-1-1 uk-card-default uk-box-shadow-medium uk-text-center n_equipo_card"
-                            uk-toggle="target: #modal">
-                            <div class="">
+                            >
+                            <div uk-toggle="target: #modal">
                                 <img src="/assets/img/nosotros/colaborador.jpg">
                             </div>
                             <div class="uk-padding-small">
                                 <h3 class="uk-card-title n_equipo_nombre">Rodrigo Cherre</h3>
                                 <h4 class="uk-text-meta n_equipo_cargo">Gerente de Ventas</h4>
-                                <a class="n_equipo_correo">inscripcion@prueba.com</a>
+                                <a href="mailto:inscripcion@prueba.com"class="n_equipo_correo">inscripcion@prueba.com</a>
                             </div>
 
                         </div>
