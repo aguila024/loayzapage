@@ -21,7 +21,7 @@
 
 .n_fondo {
   position: relative;
-  background-image: url("../img/equipo.jpg");
+  background-image: url("../img/nosotros/equipo.jpg");
   background-size: cover;
   background-position: center;
   overflow: hidden;
