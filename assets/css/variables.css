@@ -1,0 +1,134 @@
+:root {
+
+    --font-famili: 'Lato';
+    --font-famili-regular: normal;
+
+    --font-family-monserrat: 'Monserrat';
+    --font-family-poppins: 'Poppins';
+    --font-family-nunito:'Nunito';
+    --font-family-raleway: 'Raleway';
+    
+
+    --color-principal: #004368;
+    --color-verde-solido: #2C6E75;
+    --color-gris-oscuro: #6B7278;
+    --color-gris: #C8C9CB;
+    --color-purpura-claro: #D4D9E2;
+    --color-claro: #F8F8F2;
+    --color-marron-claro: #C9A86A;
+    --color-claro-2: #F8FFEF;
+    
+    --color-blanco: #FFFFFF;
+    --color-negro: #000;
+
+    --plyr-color-main: #C9A86A; 
+    --plyr-control-icon-color: #F8FFEF; 
+    --plyr-video-control-background: rgba(0, 0, 0, 0.7); 
+
+}
+
+body {
+    font-family: var(--font-famili);
+    font-weight: var(--font-famili-regular);
+}
+
+input:focus {
+    outline: none;
+}
+
+.plyr__control{
+    color: var(--color-principal);
+}
+
+.uk-h1,
+.uk-h2,
+.uk-h3,
+.uk-h4,
+.uk-h5,
+.uk-h6,
+.uk-heading-2xlarge,
+.uk-heading-3xlarge,
+.uk-heading-large,
+.uk-heading-medium,
+.uk-heading-small,
+.uk-heading-xlarge,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-famili);
+    font-weight: var(--font-famili-regular);
+}
+
+a {
+    text-decoration: none;
+}
+
+h2{font-size: 35px;}
+
+a:hover {
+    text-decoration: none;
+    color: initial;
+}
+
+.img_full_h img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.img_full_h_cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.boder_radius_20 {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.gap_5_t {
+    gap: 5px;
+}
+
+
+.gap_10_t {
+    gap: 10px;
+}
+
+.gap_20_de {
+    gap: 20px;
+}
+
+.gap_40_de {
+    gap: 40px;
+}
+
+.p_t_20{
+    padding-top: 20px;
+}
+.m_0{
+    margin: 0px;
+}
+
+.titulo_24_bold {
+    font-size: 24px;
+    color: var(--color-dark-cyan);
+    font-weight: bold;
+}
+
+.titulo_28_bold {
+    font-size: 28px;
+    color: var(--color-dark-cyan);
+    font-weight: bold;
+}
+
+.titulo_section_g2 h2 {
+    color: var(--color-blanco);
+    font-size: 48px;
+    font-family: 'Bebas Neue';
+}
