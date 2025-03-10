@@ -99,7 +99,7 @@
 
                         <!-- Botón de Enviar -->
                         <div class="uk-margin uk-flex uk-flex-center">
-                            <button class="uk-button text_blanco uk-width-auto fondo-azul uk-text-bold" type="submit">Enviar</button>
+                            <button class="uk-button button_slider btn_principal" type="submit">Enviar</button>
                         </div>
                     </form>
                 </div>

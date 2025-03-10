@@ -153,11 +153,9 @@ header {
 }
 
 .button_slider{
-    background-color: var(--color-principal);
-    color: var(--color-blanco);
     margin: auto;
-    border-radius: 5px;
-    font-family: var(--font-family-poppins);
+    font-family: var(--font-famili);
+    font-size: 15px;
 }
 
 .swiper_slider_galeria{
@@ -186,11 +184,6 @@ header {
 .item_derecho_slider p{
     font-size: 23px;
     color: #000;
-}
-.item_derecho_slider a{
-    font-size: 18px;
-    color: var(--color-blanco);
-    font-family: var(--font-family-poppins);
 }
 
 .item_derecho_slider_2 .text_1{
@@ -223,16 +216,28 @@ header {
     padding: 20px 0px;
 }
 
-.container_formulario_modal .uk-input,.container_formulario_modal .uk-textarea{
+.container_formulario_modal .uk-input,.container_formulario_modal .uk-select{
     border: 1px solid var(--color-principal);
     color: var(--color-negro);
     border-radius: 8px;
 }
 
-.container_formulario_modal .uk-input:focus,.container_formulario_modal .uk-textarea:focus{
+.container_formulario_modal .uk-input:focus,.container_formulario_modal .uk-select:focus{
     border-color: var(--color-marron-claro);
 }
 
+.container_credito_h label{
+    color: var(--color-negro);
+}
+
+.group_checkbox{
+    gap: 10px;
+}
+
+.title_subtitle{
+    color: var(--color-negro);
+    text-align: center;
+}
 /* Nosotros */
 
 .n_fondo {

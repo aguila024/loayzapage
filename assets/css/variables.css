@@ -115,20 +115,16 @@ a:hover {
     margin: 0px;
 }
 
-.titulo_24_bold {
-    font-size: 24px;
-    color: var(--color-dark-cyan);
-    font-weight: bold;
-}
-
-.titulo_28_bold {
-    font-size: 28px;
-    color: var(--color-dark-cyan);
-    font-weight: bold;
-}
-
-.titulo_section_g2 h2 {
+.btn_principal, .uk-button.btn_principal{
+    background-color: var(--color-principal);
     color: var(--color-blanco);
-    font-size: 48px;
-    font-family: 'Bebas Neue';
+    border-radius: 10px!important;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn_principal:hover{
+    background-color: var(--color-marron-claro);
+    color: var(--color-negro);
+    
 }
