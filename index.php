@@ -30,6 +30,7 @@
 
     <?php include('./common/header.php') ?>
     <?php include('./pages/slider_home.php') ?>
+    <?php include('./pages/servicios_home.php') ?>
 
 </body>
 

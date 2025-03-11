@@ -32,18 +32,16 @@
 
 
     <div class="background_page_service">
-        <div class="uk-section">
-            <div class="uk-container">
-                <div class="uk-flex uk-flex-center uk-flex-column uk-text-center uk-padding-small container_header_page_servicios">
-                    <div>
-                        <h2 class="title_page_service">Servicios</h2>
-                        <p class="p_page_service">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur nisi reprehenderit neque quas aut quam minus distinctio excepturi ab veritatis sequi corporis nobis atque officia perspiciatis, sit harum, aperiam iusto!</p>
-                        <p class="p_page_service">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium repellat magni ipsa, voluptatibus nam quos rerum molestias. Suscipit harum omnis cupiditate, asperiores molestiae sit dolorum error laudantium, minus eveniet saepe.</p>
+        <div>
+            <div class="uk-container uk-height-large uk-flex uk-flex-center uk-flex-middle">
+                <div class="uk-flex uk-flex-column  uk-padding-small container_header_page_servicios">
+                    <div class="uk-text-center">
+                        <h2 class="title_pages_bar">SERVICIOS</h2>
+                        <p class="textcontent_pages_bar">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur nisi reprehenderit neque quas aut quam minus distinctio excepturi ab veritatis sequi corporis nobis atque officia perspiciatis, sit harum, aperiam iusto!</p>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
     <div class="section_list_service">
         <div class="uk-section">
@@ -56,7 +54,7 @@
                         <div>
                             <div class="item_page_servicios">
                                 <ul uk-accordion>
-                                    <li class="uk-open">
+                                    <li class="uk-open separator">
                                         <a class="uk-accordion-title" href>Proyecto</a>
                                         <div class="uk-accordion-content">
                                             <ul class="uk-list uk-list-decimal">
@@ -73,8 +71,8 @@
                                             </ul>
                                         </div>
                                     </li>
-                                    <hr>
-                                    <li>
+                                    
+                                    <li class="separator">
                                         <a class="uk-accordion-title" href>Legal Obra</a>
                                         <div class="uk-accordion-content">
                                             <ul class="uk-list uk-list-decimal">
@@ -89,8 +87,8 @@
                                             </ul>
                                         </div>
                                     </li>
-                                    <hr>
-                                    <li>
+                                    
+                                    <li class="separator">
                                         <a class="uk-accordion-title" href>Legal Comercial</a>
                                         <div class="uk-accordion-content">
                                             <ul class="uk-list uk-list-decimal">
@@ -108,7 +106,7 @@
                         <div class="uk-margin-remove">
                             <div class="item_page_servicios">
                                 <ul uk-accordion>
-                                    <li class="uk-open">
+                                    <li class="uk-open separator">
                                         <a class="uk-accordion-title" href>Legal Empresa</a>
                                         <div class="uk-accordion-content">
                                             <ul class="uk-list uk-list-decimal">
@@ -119,8 +117,8 @@
                                             </ul>
                                         </div>
                                     </li>
-                                    <hr>
-                                    <li>
+                                    
+                                    <li class="separator">
                                         <a class="uk-accordion-title" href>Reuniones Mensuales</a>
                                         <div class="uk-accordion-content">
                                             <ul class="uk-list uk-list-decimal">
@@ -129,8 +127,8 @@
                                             </ul>
                                         </div>
                                     </li>
-                                    <hr>
-                                    <li>
+                                    
+                                    <li class="separator">
                                         <a class="uk-accordion-title" href>Consultas</a>
                                         <div class="uk-accordion-content">
                                             <ul class="uk-list uk-list-decimal">

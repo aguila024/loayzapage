@@ -3,11 +3,13 @@
     --font-famili: 'Lato';
     --font-famili-regular: normal;
 
-    --font-family-monserrat: 'Monserrat';
-    --font-family-poppins: 'Poppins';
-    --font-family-nunito:'Nunito';
-    --font-family-raleway: 'Raleway';
-    
+    --font-family-monserrat: 'Monserrat', sans-serif;
+    --font-family-poppins: 'Poppins', sans-serif;
+    --font-family-nunito: 'Nunito', sans-serif;
+    --font-family-raleway: 'Raleway', sans-serif;
+
+    --font-family-breul: 'BreulGroteskA', sans-serif;
+
 
     --color-principal: #004368;
     --color-verde-solido: #2C6E75;
@@ -17,13 +19,13 @@
     --color-claro: #F8F8F2;
     --color-marron-claro: #C9A86A;
     --color-claro-2: #F8FFEF;
-    
+
     --color-blanco: #FFFFFF;
     --color-negro: #000;
 
-    --plyr-color-main: #C9A86A; 
-    --plyr-control-icon-color: #F8FFEF; 
-    --plyr-video-control-background: rgba(0, 0, 0, 0.7); 
+    --plyr-color-main: #C9A86A;
+    --plyr-control-icon-color: #F8FFEF;
+    --plyr-video-control-background: rgba(0, 0, 0, 0.7);
 
 }
 
@@ -36,7 +38,7 @@ input:focus {
     outline: none;
 }
 
-.plyr__control{
+.plyr__control {
     color: var(--color-principal);
 }
 
@@ -66,7 +68,11 @@ a {
     text-decoration: none;
 }
 
-h2{font-size: 35px;}
+h1,
+h2,
+h3 {
+    margin: 0px;
+}
 
 a:hover {
     text-decoration: none;
@@ -108,23 +114,67 @@ a:hover {
     gap: 40px;
 }
 
-.p_t_20{
+.p_t_20 {
     padding-top: 20px;
 }
-.m_0{
+
+.m_0 {
     margin: 0px;
 }
 
-.btn_principal, .uk-button.btn_principal{
+.btn_principal,
+.uk-button.btn_principal {
     background-color: var(--color-principal);
     color: var(--color-blanco);
-    border-radius: 10px!important;
+    border-radius: 10px !important;
     font-weight: 600;
     letter-spacing: 1px;
 }
 
-.btn_principal:hover{
+.btn_principal:hover {
     background-color: var(--color-marron-claro);
     color: var(--color-negro);
-    
+
+}
+
+.title_pages_bar {
+    color: var(--color-gris);
+    font-size: 35px;
+    font-family: var(--font-family-breul);
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.textcontent_pages_bar {
+    color: var(--color-gris) !important;
+    font-family: var(--font-family-breul);
+    font-size: 22px;
+}
+
+.title_pages_services{
+    color: var(--color-principal);
+    font-size: 35px;
+    font-family: var(--font-family-breul);
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.item_page_servicios li.separator::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px; 
+    background-color: var(--color-verde-solido);
+    margin-top: 5px; 
+}
+
+.button_slider{
+    margin: auto;
+    font-family: var(--font-famili);
+    font-size: 15px;
+}
+
+.button_normal{
+    font-family: var(--font-famili);
+    font-size: 15px;
 }

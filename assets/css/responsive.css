@@ -5,10 +5,7 @@
 }
 
 @media (max-width: 1024px) {
-  .contenedor_form {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+
 }
 
 @media (max-width: 1000px) {
@@ -24,10 +21,7 @@
 }
 
 @media (max-width: 920px) {
-  .contenedor_form {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
+
 }
 
 @media (max-width: 840px) {
@@ -37,26 +31,15 @@
 }
 
 @media (max-width: 720px) {
-  .contenedor_form {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
 }
 
 @media (max-width: 639px) {
-  .contenedor_form_principal {
-    padding: 10px;
-  }
 
   /* Adjusting the size of the form and the content */
   .datos_form,
   .tamaño_contenedor {
     width: 100%;
     margin-bottom: 20px;
-  }
-
-  .contenedor_form {
-    padding: 0 20px;
   }
 
   .datos_form h2 {
